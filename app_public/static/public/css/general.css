@@ -19,7 +19,7 @@ body {
   background-color: var(--background-color);
   line-height: 1.6;
 }
-
+/* 
 nav.navbar {
   display: flex;
   justify-content: space-between;
@@ -28,12 +28,13 @@ nav.navbar {
   padding: 1rem 2rem;
   width: 100%;
 }
+  */
 
 nav .logo {
   width: 150px;
   height: auto;
 }
-
+/*
 nav.navbar ul {
   list-style: none;
   display: flex;
@@ -67,7 +68,7 @@ nav .hamburger span {
     position: relative;
   }
 
-   .nav-links {
+  .nav-links {
     position: absolute;
     top: 30px;
     gap: 5px !important;
@@ -76,8 +77,6 @@ nav .hamburger span {
     background: rgb(17, 17, 17);
     display: none;
     flex-direction: column;
-    
-    
   }
 
   nav .auth-links {
@@ -88,7 +87,7 @@ nav .hamburger span {
 
   .hamburger {
     gap: 4.5px;
-    display: block!important;
+    display: block !important;
   }
 
   .hamburger span {
@@ -97,4 +96,4 @@ nav .hamburger span {
     background-color: rgb(255, 255, 255);
     margin: 0.2px;
   }
-}
+} */

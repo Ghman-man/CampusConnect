@@ -5,7 +5,7 @@
 }
 
 main .card {
-  background-color:var(--background-color);
+  background-color: var(--background-color);
   border-radius: var(--border-radius);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -21,12 +21,12 @@ main .card {
   align-items: center;
   text-align: center;
   justify-content: center;
-}
-
-
-.hero {
   padding: 0 !important;
   margin: 0 !important;
+  text-align: center;
+}
+
+.features h2, .features h5 {
   text-align: center;
 }
 
@@ -44,7 +44,6 @@ main .card {
   margin: 10px;
 }
 
-
 section {
   margin-top: 80px;
 }
@@ -58,7 +57,6 @@ section h5 {
   color: #f27d16;
   margin-bottom: 20px;
 }
-
 
 .features .cards {
   gap: 20px;
@@ -81,9 +79,7 @@ section h5 {
 
 .features .card h3 {
   color: #00447c;
-  
 }
-
 
 .joinus {
   background-color: #fff1e4;
@@ -104,7 +100,6 @@ section h5 {
   margin: 20px auto;
 }
 
-
 footer {
   background-color: #00447c;
   color: #fff;
@@ -119,10 +114,8 @@ footer p {
   margin: auto;
 }
 
-
 @media (max-width: 768px) {
   .features .card {
     flex: 1 1 100%;
   }
-
 }

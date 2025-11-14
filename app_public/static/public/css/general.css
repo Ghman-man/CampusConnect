@@ -6,9 +6,7 @@
   --background-color: #fff8f0;
   --link-color: #0a5da6;
   --border-radius: 5px;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Poppins", sans-serif;
 }
 * {
   margin: 0;
